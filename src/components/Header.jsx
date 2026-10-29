@@ -5,7 +5,7 @@ export default function Header() {
     <Navbar sticky="top" className="app-navbar shadow-sm" data-bs-theme="dark">
       <Container fluid="lg" className="justify-content-center py-1">
         <Navbar.Brand className="app-title m-0 text-center">
-          Suncity Ambegaon D Wing Parivartan Aghadi
+          SunCity Ambegaon D Wing  -  Parivartan Aghadi
         </Navbar.Brand>
       </Container>
     </Navbar>

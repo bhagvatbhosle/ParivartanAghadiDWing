@@ -37,7 +37,7 @@ export default function Members({ members }) {
                 </div>
                 <Card.Body>
                   <Card.Title className="fs-5 mb-1">{member.fullName}</Card.Title>
-                  <Card.Text className="text-primary fw-semibold mb-0">Flat {member.flatNo}</Card.Text>
+                  <Card.Text className="text-primary fw-semibold mb-0">{member.flatNo}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
