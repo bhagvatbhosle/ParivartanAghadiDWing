@@ -49,7 +49,7 @@ export default function App() {
         }}
       />
       <main>
-        <Hero />
+        <Hero isMarathi={isMarathi} />
         <Members members={isMarathi ? marathiMembers : members} />
         <Manifesto
           items={isMarathi ? marathiManifesto : manifesto}

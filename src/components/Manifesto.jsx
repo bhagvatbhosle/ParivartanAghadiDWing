@@ -23,6 +23,11 @@ export default function Manifesto({ items, isMarathi = false }) {
             ))}
           </ListGroup>
         </div>
+        <div className="panel-taglines text-center" aria-label={isMarathi ? 'पॅनल प्रतिज्ञा' : 'Panel taglines'}>
+          <p>{isMarathi ? 'व्यक्तीपेक्षा विचार मोठा, आश्वासनांपेक्षा कृती महत्त्वाची आणि वैयक्तिक स्वार्थापेक्षा सोसायटीचे हित सर्वोच्च!' : 'Ideas matter more than individuals, action matters more than promises, and the society’s interest comes above personal gain!'}</p>
+          <p>{isMarathi ? 'आपली सोसायटी, आपली जबाबदारी, आपला अभिमान!' : 'Our society, our responsibility, our pride!'}</p>
+          <p>{isMarathi ? 'सन सिटी परिवर्तन आघाडी — सर्वांच्या सहभागातून, सर्वांच्या विकासासाठी! 🙏' : 'Sun City Parivartan Aghadi — through everyone’s participation, for everyone’s development! 🙏'}</p>
+        </div>
       </Container>
     </section>
   )

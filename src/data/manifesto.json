@@ -1,26 +1,32 @@
 [
   {
-    "title": "Integration of AI and Modern Technology",
-    "description": "Use advanced AI tools and custom software to automate complaint registration, tracking and day-to-day tasks, and set up a modern digital communication system so every resident gets information quickly."
+    "id": 1,
+    "title": "Responsible and Trustworthy Leadership",
+    "description": "I have come forward not for a position, but to take on responsibility. My goal is to work honestly for the good of our society."
   },
   {
-    "title": "Security Infrastructure and CCTV Management",
-    "description": "Evaluate security contracts, handle technical vendor MoUs and bring experience in installing high-quality CCTV. Ensure family safety through 24x7 surveillance, entry control systems and regular maintenance audits."
+    "id": 2,
+    "title": "A Problem-Solving Candidate",
+    "description": "Whatever the problem, my approach is to understand its nature and keep working consistently to find the right solution."
   },
   {
-    "title": "Large-Scale Event and Exhibition Management",
-    "description": "Bring proven experience in planning large events, logistics, vendor coordination and budget management. Ensure transparent and smooth organisation of the society AGM, festivals and social activities."
+    "id": 3,
+    "title": "Transparent Governance",
+    "description": "I will strive for transparency in the society's financial dealings, clarity in the decision-making process, and ensuring that every member gets the right information."
   },
   {
-    "title": "Legal Compliance and Property Rules Management",
-    "description": "Apply knowledge of the Maharashtra Co-operative Housing Society Act, Rules, Form No. 7 and property transfer procedures. Protect the long-term ownership of flats and the society by complying with all legal requirements."
+    "id": 4,
+    "title": "Youthful and Modern Thinking",
+    "description": "I intend to make society management easier, more transparent and more efficient by using modern technology, well-planned working methods and digital facilities."
   },
   {
-    "title": "Transparency and Financial Accountability",
-    "description": "Maintain clear and easily accessible accounts, structured vendor contracts and fixed delivery milestones. No ambiguity in decision-making: every rupee goes directly to the benefit of residents."
+    "id": 5,
+    "title": "A Member Who Takes Everyone Along",
+    "description": "There may be differences of opinion, but the society's welfare is our shared goal. I believe in listening to everyone's voice and working together with all."
   },
   {
-    "title": "Clear Goals and Vision",
-    "description": "Plan long-term infrastructure upgrades, water management, solar energy feasibility and timely repairs of buildings, with concrete planning for a sustainable and safe future."
+    "id": 6,
+    "title": "Experience and Promptness",
+    "description": "Drawing on the understanding gained from experience, consistency in work and a sense of responsibility, I will strive to find concrete and practical solutions to the society's problems."
   }
 ]

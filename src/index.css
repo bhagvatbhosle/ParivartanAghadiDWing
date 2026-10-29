@@ -35,6 +35,9 @@ body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 .manifesto-list { max-width: 860px; }
 .manifesto-list .list-group-item { border: 0; border-left: 4px solid var(--campaign-saffron); border-radius: 10px !important; box-shadow: 0 5px 18px rgba(23,59,108,.07); margin-bottom: .85rem; padding: 1.15rem 1.2rem 1.15rem .75rem; }
 .manifesto-item span { font-weight: 700; font-size: 1.05rem; }
+.panel-taglines { max-width: 860px; margin: 3rem auto 0; padding-top: 2rem; border-top: 2px solid var(--campaign-saffron); color: var(--campaign-blue); }
+.panel-taglines p { margin-bottom: .75rem; font-family: 'Merriweather', serif; font-size: clamp(.95rem, 2vw, 1.15rem); font-weight: 700; line-height: 1.7; }
+.panel-taglines p:last-child { margin-bottom: 0; }
 @media (max-width: 575px) { .hero-section { min-height: calc(100vh - 68px); padding: 3rem 0 5rem; } .section-block { padding: 3.25rem 0; } .member-photo-wrap { height: 300px; } }
 
 .members-jump-button {

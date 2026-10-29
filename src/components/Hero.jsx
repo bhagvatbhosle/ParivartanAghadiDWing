@@ -5,7 +5,7 @@ const scrollToSection = (id) => {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-export default function Hero() {
+export default function Hero({ isMarathi = false }) {
   return (
     <section
       className="hero-section"
@@ -14,18 +14,16 @@ export default function Hero() {
       <Container>
         <Row className="justify-content-center text-center">
           <Col lg={9} xl={8}>
-            <span className="hero-badge">Together for a Better Community</span>
-            <h1 className="hero-title mt-3">A Stronger Suncity Ambegaon</h1>
+            <h1 className="hero-title">{isMarathi ? 'सन सिटी - परिवर्तन आघाडी' : 'Sun City  - Parivartan Aghadi'}</h1>
             <p className="hero-lead">
-              United, transparent and responsible leadership for the D Wing community.
-              Meet our panel and discover our plan for a better tomorrow.
+              {isMarathi ? 'परिवर्तनाचा ध्यास, विकासाचा विश्वास!' : 'Passion for change, faith in development!'}
             </p>
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center mt-4">
               <Button size="lg" className="hero-button" onClick={() => scrollToSection('members')}>
-                Members
+                {isMarathi ? 'सदस्य' : 'Members'}
               </Button>
               <Button size="lg" variant="outline-light" className="hero-button" onClick={() => scrollToSection('manifesto')}>
-                Manifesto
+                {isMarathi ? 'प्रतिज्ञापत्र' : 'Manifesto'}
               </Button>
             </div>
           </Col>
