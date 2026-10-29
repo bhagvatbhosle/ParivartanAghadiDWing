@@ -4,90 +4,90 @@
 		"flatNo": "D-1204",
 		"education": "Bachelor of Engineering In Civil",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1204, Pune, Maharashtra",
-		"photo": "/photos/PravinBiradar-D1204.jpeg"
+		"photo": "photos/PravinBiradar-D1204.jpeg"
 	},
   {
 		"fullName": "Prakash Subhash Walgude",
 		"flatNo": "D-1703",
 		"education": "Chartered Accountant (FCA)",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1703, Pune, Maharashtra",
-		"photo": "/photos/PrakashWalgude-D1703.jpeg"
+		"photo": "photos/PrakashWalgude-D1703.jpeg"
 	},	
 	{
 		"fullName": "Akshay Dimble",
 		"flatNo": "D-506",
 		"education": "Bachelor of Education",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 506, Pune, Maharashtra",
-		"photo": "/photos/AkshayDimble-D506.jpeg"
+		"photo": "photos/AkshayDimble-D506.jpeg"
 	},
   {
 		"fullName": "Nilesh Mohan Sawale",
 		"flatNo": "D-204",
 		"education": "Master of Business Administration",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 204, Pune, Maharashtra",
-		"photo": "/photos/NileshSawale-D204.jpeg"
+		"photo": "photos/NileshSawale-D204.jpeg"
 	},
 	{
 		"fullName": "Kishor Jadhav",
 		"flatNo": "D-303",
 		"education": "Bachelor of Engineering In Mechanical",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 303, Pune, Maharashtra",
-		"photo": "/photos/KishorJadhav-D303.jpeg"
+		"photo": "photos/KishorJadhav-D303.jpeg"
 	},	
 	{
 		"fullName": "Ramesh Sudam Mundhe",
 		"flatNo": "D-901",
 		"education": "DSA (Finance Consultant Banking and Finance)",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 901, Pune, Maharashtra",
-		"photo": "/photos/RameshMundhe-D901.jpeg"
+		"photo": "photos/RameshMundhe-D901.jpeg"
 	},
 	{
 		"fullName": "Swati Meghraj Nayakode",
 		"flatNo": "D-902",
 		"education": "Bachelor of Engineering In Electronics & Telecommunication",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 902, Pune, Maharashtra",
-		"photo": "/photos/SwatiNayakode-D902.jpeg"
+		"photo": "photos/SwatiNayakode-D902.jpeg"
 	},
 	{
 		"fullName": "Yogita Sunil Bhilare",
 		"flatNo": "D-1002",
 		"education": "Diploma in Mechanical Engineering",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1002, Pune, Maharashtra",
-		"photo": "/photos/YogitaBhilare-D1002.jpeg"
+		"photo": "photos/YogitaBhilare-D1002.jpeg"
 	},
 	{
 		"fullName": "Vijaykumar A. Kore",
 		"flatNo": "D-1102",
 		"education": "M-Tech In Mechanical Engineering",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1102, Pune, Maharashtra",
-		"photo": "/photos/VijaykumarKore-D1102.jpeg"
+		"photo": "photos/VijaykumarKore-D1102.jpeg"
 	},
   {
 		"fullName": "Bhagvat Maroti Bhosle",
 		"flatNo": "D-1206",
 		"education": "Bachelor of Engineering In Electronics & Telecommunication",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1206, Pune, Maharashtra",
-		"photo": "/photos/BhagvatBhosle-D1206.jpeg"
+		"photo": "photos/BhagvatBhosle-D1206.jpeg"
 	},
 	{
 		"fullName": "Subhash Vithalrao Kamble",
 		"flatNo": "D-2102",
 		"education": "Bachelor of Commerce In Accounting",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 2102, Pune, Maharashtra",
-		"photo": "/photos/SubhashKamble-D2102.jpeg"
+		"photo": "photos/SubhashKamble-D2102.jpeg"
 	},
 	{
 		"fullName": "Kaustubh Dilip Pandit",
 		"flatNo": "D-2402",
 		"education": "Bachelor of Engineering In Chemical",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 2402, Pune, Maharashtra",
-		"photo": "/photos/KaustubhPandit-D2402.jpeg"
+		"photo": "photos/KaustubhPandit-D2402.jpeg"
 	},
 	{
 		"fullName": "Sagar Dinesh Kate",
 		"flatNo": "D-2403",
 		"education": "Bachelor of Engineering In Electronics & Telecommunication",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 2403, Pune, Maharashtra",
-		"photo": "/photos/SagarKate-D2403.jpeg"
+		"photo": "photos/SagarKate-D2403.jpeg"
 	}
 ]

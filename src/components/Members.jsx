@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Card, Col, Container, Modal, Row } from 'react-bootstrap'
 
 const PLACEHOLDER = 'https://ui-avatars.com/api/?name=Member&background=e7efff&color=173b6c&size=400'
-const assetUrl = (path) => path?.startsWith('/') ? `${import.meta.env.BASE_URL}${path.slice(1)}` : path
+const assetUrl = (path) => path ? `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}` : ''
 
 export default function Members({ members }) {
   const [selectedMember, setSelectedMember] = useState(null)
