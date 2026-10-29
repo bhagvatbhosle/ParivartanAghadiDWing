@@ -4,7 +4,7 @@ import { Card, Col, Container, Modal, Row } from 'react-bootstrap'
 const PLACEHOLDER = 'https://ui-avatars.com/api/?name=Member&background=e7efff&color=173b6c&size=400'
 const assetUrl = (path) => path ? `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}` : ''
 
-export default function Members({ members, onPhotoClick }) {
+export default function Members({ members }) {
   const [selectedMember, setSelectedMember] = useState(null)
 
   return (
@@ -27,19 +27,7 @@ export default function Members({ members, onPhotoClick }) {
                   if (event.key === 'Enter' || event.key === ' ') setSelectedMember(member)
                 }}
               >
-                <div
-                  className="member-photo-wrap"
-                  role="button"
-                  tabIndex={0}
-                  onClick={(event) => { event.stopPropagation(); onPhotoClick?.(); setSelectedMember(member) }}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter' || event.key === ' ') {
-                      event.preventDefault()
-                      onPhotoClick?.()
-                      setSelectedMember(member)
-                    }
-                  }}
-                >
+                <div className="member-photo-wrap">
                   <Card.Img
                     variant="top"
                     src={assetUrl(member.photo) || PLACEHOLDER}

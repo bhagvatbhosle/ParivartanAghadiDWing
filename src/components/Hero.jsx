@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import societyBackground from '../data/photos/SunCityAmbegaon.jpg'
 
 const scrollToSection = (id) => {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -6,7 +7,10 @@ const scrollToSection = (id) => {
 
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section
+      className="hero-section"
+      style={{ backgroundImage: `linear-gradient(110deg, rgba(14,46,91,.96), rgba(36,89,154,.88)), url(${societyBackground})` }}
+    >
       <Container>
         <Row className="justify-content-center text-center">
           <Col lg={9} xl={8}>

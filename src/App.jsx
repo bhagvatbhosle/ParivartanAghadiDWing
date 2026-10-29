@@ -4,11 +4,14 @@ import Hero from './components/Hero'
 import Members from './components/Members'
 import Manifesto from './components/Manifesto'
 import members from './data/members.json'
+import marathiMembers from './data/members-marthi.json'
 import manifesto from './data/manifesto.json'
+import marathiManifesto from './data/manifesto-marthi.json'
 
 export default function App() {
   const [showMembersButton, setShowMembersButton] = useState(false)
   const [headerTitle, setHeaderTitle] = useState('SunCity Ambegaon D Wing  -  Parivartan Aghadi')
+  const [isMarathi, setIsMarathi] = useState(false)
 
   useEffect(() => {
     const updateButtonVisibility = () => {
@@ -32,14 +35,26 @@ export default function App() {
 
   return (
     <>
-      <Header title={headerTitle} />
+      <Header
+        title={headerTitle}
+        isMarathi={isMarathi}
+        onLanguageClick={() => {
+          setIsMarathi((current) => {
+            const nextLanguage = !current
+            setHeaderTitle(nextLanguage
+              ? 'सन सिटी आंबेगाव विंग डी - परिवर्तन आघाडी'
+              : 'SunCity Ambegaon D Wing  -  Parivartan Aghadi')
+            return nextLanguage
+          })
+        }}
+      />
       <main>
         <Hero />
-        <Members
-          members={members}
-          onPhotoClick={() => setHeaderTitle('सन सिटी आंबेगाव विंग डी - परिवर्तन आघाडी')}
+        <Members members={isMarathi ? marathiMembers : members} />
+        <Manifesto
+          items={isMarathi ? marathiManifesto : manifesto}
+          isMarathi={isMarathi}
         />
-        <Manifesto items={manifesto} />
       </main>
       {showMembersButton && (
         <button
