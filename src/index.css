@@ -1,0 +1,32 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap');
+:root { --campaign-blue: #173b6c; --campaign-saffron: #f59e0b; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
+#root { min-height: 100vh; }
+.app-navbar { background: linear-gradient(90deg, #173b6c, #24599a); min-height: 68px; }
+.app-title { color: #fff; font-size: clamp(.9rem, 2.5vw, 1.25rem); font-weight: 800; white-space: normal; line-height: 1.25; }
+.hero-section { min-height: 680px; display: grid; align-items: center; color: #fff; padding: 5rem 0 8rem; background: linear-gradient(110deg, rgba(14,46,91,.96), rgba(36,89,154,.88)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=85') center/cover; }
+.hero-badge { display:inline-block; border: 1px solid rgba(255,255,255,.35); background: rgba(255,255,255,.1); border-radius: 50px; padding: .45rem 1rem; font-size: .88rem; font-weight: 700; }
+.hero-title { font-family: 'Merriweather', serif; font-size: clamp(2.4rem, 7vw, 4.75rem); line-height: 1.08; }
+.hero-lead { max-width: 680px; margin: 1.25rem auto 0; color: rgba(255,255,255,.88); font-size: clamp(1rem, 2vw, 1.2rem); }
+.hero-button { min-width: 150px; font-weight: 700; border-radius: 8px; }
+.hero-button.btn-primary { background: var(--campaign-saffron); border-color: var(--campaign-saffron); color: #241800; }
+.hero-button.btn-primary:hover { background: #e58e05; border-color: #e58e05; }
+.section-block { scroll-margin-top: 68px; padding: 5rem 0; }
+.section-heading h2 { color: var(--campaign-blue); font-size: clamp(2rem, 5vw, 3rem); }
+.section-heading p { max-width: 620px; }
+.member-card { border: 0; border-radius: 14px; overflow: hidden; cursor: pointer; box-shadow: 0 5px 20px rgba(23,59,108,.08); transition: transform .2s ease, box-shadow .2s ease; }
+.member-card:hover, .member-card:focus-visible { transform: translateY(-7px); box-shadow: 0 16px 35px rgba(23,59,108,.16); outline: 3px solid rgba(245,158,11,.4); }
+.member-photo-wrap { height: 260px; overflow: hidden; background: #e7efff; }
+.member-photo-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.modal-avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px #eef3fa; }
+.profile-row { padding: .85rem 0; border-bottom: 1px solid #e9eef4; }
+.profile-row:last-child { border-bottom: 0; }
+.profile-row dt { color: var(--campaign-blue); font-weight: 800; margin-bottom: .25rem; }
+.profile-row dd { margin: 0; color: #536170; }
+.manifesto-section { background: #fff; }
+.manifesto-list { max-width: 860px; }
+.manifesto-list .list-group-item { border: 0; border-left: 4px solid var(--campaign-saffron); border-radius: 10px !important; box-shadow: 0 5px 18px rgba(23,59,108,.07); margin-bottom: .85rem; padding: 1.15rem 1.2rem 1.15rem .75rem; }
+.manifesto-list .list-group-item::before { background: var(--campaign-blue); color: #fff; font-weight: 800; }
+.manifesto-item span { font-weight: 700; font-size: 1.05rem; }
+@media (max-width: 575px) { .hero-section { min-height: calc(100vh - 68px); padding: 3rem 0 5rem; } .section-block { padding: 3.25rem 0; } .member-photo-wrap { height: 300px; } }
