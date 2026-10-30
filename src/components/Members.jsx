@@ -4,16 +4,16 @@ import { Card, Col, Container, Modal, Row } from 'react-bootstrap'
 const PLACEHOLDER = 'https://ui-avatars.com/api/?name=Member&background=e7efff&color=173b6c&size=400'
 const assetUrl = (path) => path ? `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}` : ''
 
-export default function Members({ members }) {
+export default function Members({ members, isMarathi = false }) {
   const [selectedMember, setSelectedMember] = useState(null)
 
   return (
     <section id="members" className="section-block bg-light">
       <Container>
         <div className="section-heading text-center mb-4 mb-md-5">
-          <span className="text-primary fw-semibold">Our Panel</span>
-          <h2 className="fw-bold mt-1">Meet Your Members</h2>
-          <p className="text-secondary mx-auto mb-0">Dedicated residents working together for the welfare of D Wing.</p>
+          <span className="text-primary fw-semibold">{isMarathi ? 'आमचे पॅनल' : 'Our Panel'}</span>
+          <h2 className="fw-bold mt-1">{isMarathi ? 'आपल्या सदस्यांना भेटा' : 'Meet Your Members'}</h2>
+          <p className="text-secondary mx-auto mb-0">{isMarathi ? 'डी विंगच्या कल्याणासाठी आणि सर्वांगीण विकासासाठी एकत्रितपणे कार्य करणारे समर्पित रहिवासी.' : 'Dedicated residents working together for the welfare of D Wing.'}</p>
         </div>
         <Row className="g-4">
           {members.map((member) => (

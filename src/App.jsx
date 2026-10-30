@@ -10,8 +10,8 @@ import marathiManifesto from './data/manifesto-marthi.json'
 
 export default function App() {
   const [showMembersButton, setShowMembersButton] = useState(false)
-  const [headerTitle, setHeaderTitle] = useState('SunCity Ambegaon D Wing  -  Parivartan Aghadi')
-  const [isMarathi, setIsMarathi] = useState(false)
+  const [headerTitle, setHeaderTitle] = useState('सन सिटी आंबेगाव विंग डी - परिवर्तन आघाडी')
+  const [isMarathi, setIsMarathi] = useState(true)
 
   useEffect(() => {
     const updateButtonVisibility = () => {
@@ -33,29 +33,41 @@ export default function App() {
     document.getElementById('members')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
+  const toggleLanguage = () => {
+    setIsMarathi((current) => {
+      const nextLanguage = !current
+      setHeaderTitle(nextLanguage
+        ? 'सन सिटी आंबेगाव विंग डी - परिवर्तन आघाडी'
+        : 'SunCity Ambegaon D Wing  -  Parivartan Aghadi')
+      return nextLanguage
+    })
+  }
+
   return (
     <>
       <Header
         title={headerTitle}
-        isMarathi={isMarathi}
-        onLanguageClick={() => {
-          setIsMarathi((current) => {
-            const nextLanguage = !current
-            setHeaderTitle(nextLanguage
-              ? 'सन सिटी आंबेगाव विंग डी - परिवर्तन आघाडी'
-              : 'SunCity Ambegaon D Wing  -  Parivartan Aghadi')
-            return nextLanguage
-          })
-        }}
       />
       <main>
         <Hero isMarathi={isMarathi} />
-        <Members members={isMarathi ? marathiMembers : members} />
+        <Members
+          members={isMarathi ? marathiMembers : members}
+          isMarathi={isMarathi}
+        />
         <Manifesto
+          key={isMarathi ? 'marathi' : 'english'}
           items={isMarathi ? marathiManifesto : manifesto}
           isMarathi={isMarathi}
         />
       </main>
+      <button
+        type="button"
+        className="language-button"
+        onClick={toggleLanguage}
+        aria-pressed={isMarathi}
+      >
+        {isMarathi ? 'In English' : 'मराठीत'}
+      </button>
       {showMembersButton && (
         <button
           type="button"

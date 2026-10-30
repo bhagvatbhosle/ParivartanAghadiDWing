@@ -28,5 +28,45 @@
     "id": 6,
     "title": "Experience and Promptness",
     "description": "Drawing on the understanding gained from experience, consistency in work and a sense of responsibility, I will strive to find concrete and practical solutions to the society's problems."
+  },
+  {
+    "id": 7,
+    "title": "Water Management",
+    "description": "We will keep a record of how much water goes to each wing and plan the distribution systematically, so that all residents receive regular and sufficient water."
+  },
+  {
+    "id": 8,
+    "title": "Cleanliness and Maintenance",
+    "description": "We will make continuous efforts to keep the building premises, staircases, lifts and common areas clean at all times, and to ensure regular maintenance of all facilities."
+  },
+  {
+    "id": 9,
+    "title": "Digital Management",
+    "description": "We will use simple digital processes for maintenance charges, notices, complaints and accounts, so that every member gets the right information quickly and transparently."
+  },
+  {
+    "id": 10,
+    "title": "Member Communication",
+    "description": "We will listen patiently to every member, understand their difficulties, and find suitable solutions with everyone's consent."
+  },
+  {
+    "id": 11,
+    "title": "Premises Development",
+    "description": "We will develop the society premises in a planned manner and bring long-term, lasting improvements in safety and amenities."
+  },
+  {
+    "id": 12,
+    "title": "Grievance Redressal",
+    "description": "We will record every complaint received from residents, follow up properly until it is resolved, and inform the concerned persons of the outcome."
+  },
+  {
+    "id": 13,
+    "title": "Unity and Coordination",
+    "description": "We will work to increase mutual cooperation, coordination and goodwill among residents of all wings, so that the entire society moves forward together as one family."
+  },
+  {
+    "id": 14,
+    "title": "Pending Builder Works",
+    "description": "We will consistently follow up, in writing and in person, on the works left incomplete by the builder and pending issues, and try to find a proper resolution in the interest of the society."
   }
 ]

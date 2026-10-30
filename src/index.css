@@ -3,16 +3,17 @@
 html { scroll-behavior: smooth; }
 body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 #root { min-height: 100vh; }
-.app-navbar { background: linear-gradient(90deg, #173b6c, #24599a); min-height: 68px; }
-.app-title { color: #fff; font-size: clamp(.9rem, 2.5vw, 1.25rem); font-weight: 800; white-space: normal; line-height: 1.25; }
-.language-button { position: absolute; right: 0; top: 50%; transform: translateY(-50%); border: 1px solid rgba(255,255,255,.75); border-radius: 20px; padding: .35rem .75rem; color: #fff; background: transparent; font-size: .82rem; font-weight: 700; }
+.app-navbar { background: linear-gradient(90deg, #173b6c, #24599a); height: 68px; }
+.app-navbar .container-lg { height: 100%; }
+.app-title { color: #fff; font-size: clamp(.95rem, 2vw, 1.15rem); font-weight: 800; line-height: 1.25; }
+.language-button { position: fixed; right: clamp(.75rem, 3vw, 2rem); top: 80px; z-index: 1025; border: 1px solid rgba(255,255,255,.75); border-radius: 20px; min-height: 34px; padding: .3rem .75rem; color: #fff; background: rgba(23,59,108,.72); font-size: .82rem; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,.18); }
 .language-button:hover { background: var(--campaign-saffron); border-color: var(--campaign-saffron); color: #241800; }
 @media (max-width: 575px) {
-  .app-navbar .container-lg { flex-direction: column; gap: .3rem; padding: .45rem .75rem; }
-  .app-title { width: 100%; padding: 0; font-size: .78rem; }
-  .language-button { position: static; transform: none; align-self: flex-end; font-size: .72rem; padding: .25rem .55rem; }
+  .app-navbar { height: 56px; }
+  .app-title { padding: 0 .25rem; font-size: clamp(.72rem, 3.8vw, .92rem); text-align: center; }
+  .language-button { right: .75rem; top: 66px; min-height: 32px; font-size: .72rem; padding: .25rem .55rem; }
 }
-.hero-section { min-height: 680px; display: grid; align-items: center; color: #fff; padding: 5rem 0 8rem; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.hero-section { position: relative; min-height: 680px; display: grid; align-items: center; color: #fff; padding: 5rem 0 8rem; background-position: center; background-size: cover; background-repeat: no-repeat; }
 .hero-badge { display:inline-block; border: 1px solid rgba(255,255,255,.35); background: rgba(255,255,255,.1); border-radius: 50px; padding: .45rem 1rem; font-size: .88rem; font-weight: 700; }
 .hero-title { font-family: 'Merriweather', serif; font-size: clamp(2.4rem, 7vw, 4.75rem); line-height: 1.08; }
 .hero-lead { max-width: 680px; margin: 1.25rem auto 0; color: rgba(255,255,255,.88); font-size: clamp(1rem, 2vw, 1.2rem); }
@@ -35,6 +36,9 @@ body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 .manifesto-list { max-width: 860px; }
 .manifesto-list .list-group-item { border: 0; border-left: 4px solid var(--campaign-saffron); border-radius: 10px !important; box-shadow: 0 5px 18px rgba(23,59,108,.07); margin-bottom: .85rem; padding: 1.15rem 1.2rem 1.15rem .75rem; }
 .manifesto-item span { font-weight: 700; font-size: 1.05rem; }
+.manifesto-load-button { border: 0; border-radius: 8px; padding: .65rem 1.25rem; color: #241800; background: var(--campaign-saffron); font-weight: 800; box-shadow: 0 5px 14px rgba(245,158,11,.2); }
+.manifesto-load-button:hover { background: #e58e05; }
+.manifesto-load-button:focus-visible { outline: 3px solid rgba(23,59,108,.25); outline-offset: 3px; }
 .panel-taglines { max-width: 860px; margin: 3rem auto 0; padding-top: 2rem; border-top: 2px solid var(--campaign-saffron); color: var(--campaign-blue); }
 .panel-taglines p { margin-bottom: .75rem; font-family: 'Merriweather', serif; font-size: clamp(.95rem, 2vw, 1.15rem); font-weight: 700; line-height: 1.7; }
 .panel-taglines p:last-child { margin-bottom: 0; }

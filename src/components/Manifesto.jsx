@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import { Container, ListGroup } from 'react-bootstrap'
 
 export default function Manifesto({ items, isMarathi = false }) {
+  const [visibleCount, setVisibleCount] = useState(5)
+
   return (
     <section id="manifesto" className="section-block manifesto-section">
       <Container>
@@ -11,7 +14,7 @@ export default function Manifesto({ items, isMarathi = false }) {
         </div>
         <div className="manifesto-list mx-auto">
           <ListGroup>
-            {items.map((item, index) => (
+            {items.slice(0, visibleCount).map((item, index) => (
               typeof item === 'string' ? (
                 <ListGroup.Item as="li" key={item} className="manifesto-item"><span>{item}</span></ListGroup.Item>
               ) : (
@@ -23,6 +26,17 @@ export default function Manifesto({ items, isMarathi = false }) {
             ))}
           </ListGroup>
         </div>
+        {visibleCount < items.length && (
+          <div className="text-center mt-4">
+            <button
+              type="button"
+              className="manifesto-load-button"
+              onClick={() => setVisibleCount((count) => count + 5)}
+            >
+              {isMarathi ? 'आणखी दाखवा...' : 'Load more...'}
+            </button>
+          </div>
+        )}
         <div className="panel-taglines text-center" aria-label={isMarathi ? 'पॅनल प्रतिज्ञा' : 'Panel taglines'}>
           <p>{isMarathi ? 'व्यक्तीपेक्षा विचार मोठा, आश्वासनांपेक्षा कृती महत्त्वाची आणि वैयक्तिक स्वार्थापेक्षा सोसायटीचे हित सर्वोच्च!' : 'Ideas matter more than individuals, action matters more than promises, and the society’s interest comes above personal gain!'}</p>
           <p>{isMarathi ? 'आपली सोसायटी, आपली जबाबदारी, आपला अभिमान!' : 'Our society, our responsibility, our pride!'}</p>

@@ -23,7 +23,7 @@ export default function Hero({ isMarathi = false }) {
                 {isMarathi ? 'सदस्य' : 'Members'}
               </Button>
               <Button size="lg" variant="outline-light" className="hero-button" onClick={() => scrollToSection('manifesto')}>
-                {isMarathi ? 'प्रतिज्ञापत्र' : 'Manifesto'}
+                {isMarathi ? 'जाहीरनामा' : 'Manifesto'}
               </Button>
             </div>
           </Col>
