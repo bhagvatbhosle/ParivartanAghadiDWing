@@ -25,9 +25,14 @@ body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 .section-heading p { max-width: 620px; }
 .member-card { border: 0; border-radius: 14px; overflow: hidden; cursor: pointer; box-shadow: 0 5px 20px rgba(23,59,108,.08); transition: transform .2s ease, box-shadow .2s ease; }
 .member-card:hover, .member-card:focus-visible { transform: translateY(-7px); box-shadow: 0 16px 35px rgba(23,59,108,.16); outline: 3px solid rgba(245,158,11,.4); }
+.member-see-more { margin-top: .85rem; display: inline-flex; align-items: center; gap: .35rem; color: var(--campaign-blue); font-size: .88rem; font-weight: 800; }
+.member-see-more svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .member-photo-wrap { height: 260px; overflow: hidden; background: #e7efff; }
 .member-photo-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .modal-avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px #eef3fa; }
+.profile-modal-header { position: relative; }
+.profile-modal-header .modal-title { position: absolute; left: 0; right: 0; margin: 0; text-align: center; pointer-events: none; }
+.profile-modal-header .btn-close { z-index: 1; margin-left: auto; }
 .profile-row { padding: .85rem 0; border-bottom: 1px solid #e9eef4; }
 .profile-row:last-child { border-bottom: 0; }
 .profile-row dt { color: var(--campaign-blue); font-weight: 800; margin-bottom: .25rem; }

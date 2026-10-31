@@ -9,8 +9,8 @@ export default function Manifesto({ items, isMarathi = false }) {
       <Container>
         <div className="section-heading text-center mb-4 mb-md-5">
           <span className="text-primary fw-semibold">{isMarathi ? 'आमची वचनबद्धता' : 'Our Commitment'}</span>
-          <h2 className="fw-bold mt-1">{isMarathi ? 'आमचे प्रतिज्ञापत्र' : 'Our Manifesto'}</h2>
-          <p className="text-secondary mx-auto mb-0">{isMarathi ? 'पारदर्शक, सुरक्षित आणि चैतन्यपूर्ण सामुदायिक जीवनासाठी व्यावहारिक आश्वासने.' : 'Practical promises for transparent, safe and vibrant community living.'}</p>
+          <h2 className="fw-bold mt-1">{isMarathi ? 'आमचा जाहीरनामा' : 'Our Manifesto'}</h2>
+          <p className="text-secondary mx-auto mb-0">{isMarathi ? 'पारदर्शक, सुरक्षित आणि आनंदी जीवनासाठी व्यावहारिक आश्वासने.' : 'Practical promises for transparent, safe and vibrant community living.'}</p>
         </div>
         <div className="manifesto-list mx-auto">
           <ListGroup>
@@ -33,7 +33,7 @@ export default function Manifesto({ items, isMarathi = false }) {
               className="manifesto-load-button"
               onClick={() => setVisibleCount((count) => count + 5)}
             >
-              {isMarathi ? 'आणखी दाखवा...' : 'Load more...'}
+              {isMarathi ? 'आणखी दाखवा...' : 'Load More...'}
             </button>
           </div>
         )}
