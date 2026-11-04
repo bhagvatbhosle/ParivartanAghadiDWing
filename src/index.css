@@ -6,11 +6,13 @@ body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 .app-navbar { background: linear-gradient(90deg, #173b6c, #24599a); height: 68px; }
 .app-navbar .container-lg { height: 100%; }
 .app-title { color: #fff; font-size: clamp(.95rem, 2vw, 1.15rem); font-weight: 800; line-height: 1.25; }
+.navbar-diya { position: absolute; right: 0.75rem; width: 52px; height: 52px; margin-left: auto; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 8px rgba(0, 0, 0, .18); }
 .language-button { position: fixed; right: clamp(.75rem, 3vw, 2rem); top: 80px; z-index: 1025; border: 1px solid rgba(255,255,255,.75); border-radius: 20px; min-height: 34px; padding: .3rem .75rem; color: #fff; background: rgba(23,59,108,.72); font-size: .82rem; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,.18); }
 .language-button:hover { background: var(--campaign-saffron); border-color: var(--campaign-saffron); color: #241800; }
 @media (max-width: 575px) {
   .app-navbar { height: 56px; }
   .app-title { padding: 0 .25rem; font-size: clamp(.72rem, 3.8vw, .92rem); text-align: center; }
+  .navbar-diya { right: 0.5rem; width: 44px; height: 44px; border-radius: 10px; }
   .language-button { right: .75rem; top: 66px; min-height: 32px; font-size: .72rem; padding: .25rem .55rem; }
 }
 .hero-section { position: relative; min-height: 680px; display: grid; align-items: center; color: #fff; padding: 5rem 0 8rem; background-position: center; background-size: cover; background-repeat: no-repeat; }
@@ -25,6 +27,7 @@ body { font-family: 'Manrope', sans-serif; color: #263238; min-width: 320px; }
 .section-heading p { max-width: 620px; }
 .member-card { border: 0; border-radius: 14px; overflow: hidden; cursor: pointer; box-shadow: 0 5px 20px rgba(23,59,108,.08); transition: transform .2s ease, box-shadow .2s ease; }
 .member-card:hover, .member-card:focus-visible { transform: translateY(-7px); box-shadow: 0 16px 35px rgba(23,59,108,.16); outline: 3px solid rgba(245,158,11,.4); }
+.member-village { color: #334b66; font-weight: 600; }
 .member-see-more { margin-top: .85rem; display: inline-flex; align-items: center; gap: .35rem; color: var(--campaign-blue); font-size: .88rem; font-weight: 800; }
 .member-see-more svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .member-photo-wrap { height: 260px; overflow: hidden; background: #e7efff; }

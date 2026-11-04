@@ -4,6 +4,7 @@
     "flatNo": "डी-१२०४",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (सिव्हिल)",
     "permanentAddress": "मु. पो. उमराणी, तालुका - जत, जिल्हा - सांगली, महाराष्ट्र",
+    "village": "उमराणी, जत",
     "photo": "photos/PravinBiradar-D1204.jpeg"
   },
   {
@@ -11,6 +12,7 @@
     "flatNo": "डी-१७०३",
     "education": "चार्टर्ड अकाउंटंट (FCA)",
     "permanentAddress": "मु. पो.- मार्गासनी, तालुका - राजगड (वेल्हा), जिल्हा - पुणे, महाराष्ट्र",
+    "village": "मार्गासनी, राजगड",
     "photo": "photos/PrakashWalgude-D1703.jpeg"
   },
   {
@@ -18,6 +20,7 @@
     "flatNo": "डी-५०६",
     "education": "मास्टर्स इन ॲडव्हर्टायझिंग अँड कम्युनिकेशन",
     "permanentAddress": "सनसिटी आंबेगाव, डी विंग, फ्लॅट ५०६, पुणे, महाराष्ट्र",
+    "village": "सनसिटी आंबेगाव, डी विंग",
     "photo": "photos/AkshayDimble-D506.jpeg"
   },
   {
@@ -25,6 +28,7 @@
     "flatNo": "डी-२०४",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (मेकॅनिकल)",
     "permanentAddress": "हिंगणगाव, ता. कवठे महांकाळ, जि. सांगली, महाराष्ट्र",
+    "village": "हिंगणगाव, कवठे महांकाळ",
     "photo": "photos/NileshSawale-D204.jpeg"
   },
   {
@@ -32,6 +36,7 @@
     "flatNo": "डी-३०३",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (मेकॅनिकल)",
     "permanentAddress": "हिंगणगाव, ता-कडेगाव, जी-सांगली, महाराष्ट्र",
+    "village": "हिंगणगाव, कडेगाव",
     "photo": "photos/KishorJadhav-D303.jpeg"
   },
   {
@@ -39,13 +44,15 @@
     "flatNo": "डी-९०१",
     "education": "डीएसए (फायनान्स कन्सल्टंट – बँकिंग आणि फायनान्स)",
     "permanentAddress": "सनसिटी आंबेगाव, डी विंग, फ्लॅट ९०१, पुणे, महाराष्ट्र",
+    "village": "सनसिटी आंबेगाव, डी विंग",
     "photo": "photos/RameshMundhe-D901.jpeg"
   },
   {
     "fullName": "स्वाती मेघराज नायकोडे",
     "flatNo": "डी-९०२",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (इलेक्ट्रॉनिक्स आणि टेलिकम्युनिकेशन्स)",
-    "permanentAddress": "सनसिटी आंबेगाव, डी विंग, फ्लॅट ९०२, पुणे, महाराष्ट्र",
+    "permanentAddress": "सोलापूर, महाराष्ट्र",
+    "village": "सोलापूर",
     "photo": "photos/SwatiNayakode-D902.jpeg"
   },
   {
@@ -53,13 +60,15 @@
     "flatNo": "डी-१००२",
     "education": "मेकॅनिकल इंजिनिअरिंगमधील डिप्लोमा",
     "permanentAddress": "मु. पो. चिंचणी, तालुका - सातारा, जिल्हा - सातारा, महाराष्ट्र",
+    "village": "चिंचणी, सातारा",
     "photo": "photos/YogitaBhilare-D1002.jpeg"
   },
   {
     "fullName": "विजयकुमार अ. कोरे",
     "flatNo": "डी-११०२",
     "education": "एम.टेक (मेकॅनिकल इंजिनिअरिंग)",
-    "permanentAddress": "सनसिटी आंबेगाव, डी विंग, फ्लॅट ११०२, पुणे, महाराष्ट्र",
+    "permanentAddress": "मु.पो. कुरुंदवाड, तालुका- शिरोळ, जिल्हा- कोल्हापूर, महाराष्ट्र",
+    "village": "कुरुंदवाड, शिरोळ",
     "photo": "photos/VijaykumarKore-D1102.jpeg"
   },
   {
@@ -67,6 +76,7 @@
     "flatNo": "डी-१२०६",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (इलेक्ट्रॉनिक्स आणि टेलिकम्युनिकेशन्स)",
     "permanentAddress": "तालुका - देगलूर, जिल्हा - नांदेड, महाराष्ट्र",
+    "village": "नांदेड",
     "photo": "photos/BhagvatBhosle-D1206.jpeg"
   },
   {
@@ -74,6 +84,7 @@
     "flatNo": "डी-२१०२",
     "education": "बॅचलर ऑफ कॉमर्स (अकाउंटिंग)",
     "permanentAddress": " लातूर, जिल्हा - लातूर, महाराष्ट्र",
+    "village": "लातूर",
     "photo": "photos/SubhashKamble-D2102.jpeg"
   },
   {
@@ -81,6 +92,7 @@
     "flatNo": "डी-२४०२",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (केमिकल)",
     "permanentAddress": "फलटण, तालुका, जिल्हा सातारा, महाराष्ट्र",
+    "village": "फलटण, सातारा",
     "photo": "photos/KaustubhPandit-D2402.jpeg"
   },
   {
@@ -88,6 +100,7 @@
     "flatNo": "डी-२४०३",
     "education": "बॅचलर ऑफ इंजिनिअरिंग (इलेक्ट्रॉनिक्स आणि टेलिकम्युनिकेशन्स)",
     "permanentAddress": "सनसिटी आंबेगाव, डी विंग, फ्लॅट २४०३, पुणे, महाराष्ट्र",
+    "village": "सनसिटी आंबेगाव, डी विंग",
     "photo": "photos/SagarKate-D2403.jpeg"
   }
 ]

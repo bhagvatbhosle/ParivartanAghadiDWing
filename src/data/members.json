@@ -4,6 +4,7 @@
 		"flatNo": "D-1204",
 		"education": "Bachelor of Engineering In Civil",
 		"permanentAddress": "At Post - Umrani, Taluka - Jat, District - Sangli, Maharashtra",
+		"village": "Umrani, Jat",
 		"photo": "photos/PravinBiradar-D1204.jpeg"
 	},
   {
@@ -11,6 +12,7 @@
 		"flatNo": "D-1703",
 		"education": "Chartered Accountant (FCA)",
 		"permanentAddress": "At Post - Margasani, Taluka - Rajgad (Velhe), District - Pune, Maharashtra",
+		"village": "Margasani, Rajgad",
 		"photo": "photos/PrakashWalgude-D1703.jpeg"
 	},	
 	{
@@ -18,6 +20,7 @@
 		"flatNo": "D-506",
 		"education": "Masters in Advertising and Communication",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 506, Pune, Maharashtra",
+		"village": "Suncity Ambegaon D Wing",
 		"photo": "photos/AkshayDimble-D506.jpeg"
 	},
   {
@@ -25,6 +28,7 @@
 		"flatNo": "D-204",
 		"education": "Bachelor of Engineering In Mechanical",
 		"permanentAddress": "Hingangaon, Taluka - Kavathe Mahankal, District - Sangli, Maharashtra",
+		"village": "Hingangaon, Kavathe Mahankal",
 		"photo": "photos/NileshSawale-D204.jpeg"
 	},
 	{
@@ -32,6 +36,7 @@
 		"flatNo": "D-303",
 		"education": "Bachelor of Engineering In Mechanical",
 		"permanentAddress": "Hingangaon, Taluka - Kadegaon, District - Sangli, Maharashtra",
+		"village": "Hingangaon, Kadegaon",
 		"photo": "photos/KishorJadhav-D303.jpeg"
 	},	
 	{
@@ -39,13 +44,15 @@
 		"flatNo": "D-901",
 		"education": "DSA (Finance Consultant Banking and Finance)",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 901, Pune, Maharashtra",
+		"village": "Suncity Ambegaon, D Wing",
 		"photo": "photos/RameshMundhe-D901.jpeg"
 	},
 	{
 		"fullName": "Swati Meghraj Naykode",
 		"flatNo": "D-902",
 		"education": "Bachelor of Engineering In Electronics & Telecommunications",
-		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 902, Pune, Maharashtra",
+		"permanentAddress": "Solapur, Maharashtra",
+		"village": "Solapur",
 		"photo": "photos/SwatiNayakode-D902.jpeg"
 	},
 	{
@@ -53,13 +60,15 @@
 		"flatNo": "D-1002",
 		"education": "Diploma in Mechanical Engineering",
 		"permanentAddress": "At Post - Chinchani, Taluka – Satara, District – Satara, Maharashtra",
+		"village": "Chinchani, Satara",
 		"photo": "photos/YogitaBhilare-D1002.jpeg"
 	},
 	{
 		"fullName": "Vijaykumar A. Kore",
 		"flatNo": "D-1102",
 		"education": "M-Tech In Mechanical Engineering",
-		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 1102, Pune, Maharashtra",
+		"permanentAddress": "At Post Kurundwad, Taluka - Shirol, District - Kolhapur, Maharashtra",
+		"village": "Kurundwad, Shirol",
 		"photo": "photos/VijaykumarKore-D1102.jpeg"
 	},
   {
@@ -67,6 +76,7 @@
 		"flatNo": "D-1206",
 		"education": "Bachelor of Engineering In Electronics & Telecommunications",
 		"permanentAddress": "Taluka - Degloor, District - Nanded, Maharashtra",
+		"village": "Nanded",
 		"photo": "photos/BhagvatBhosle-D1206.jpeg"
 	},
 	{
@@ -74,6 +84,7 @@
 		"flatNo": "D-2102",
 		"education": "Bachelor of Commerce In Accounting",
 		"permanentAddress": "Latur, District - Latur, Maharashtra",
+		"village": "Latur",
 		"photo": "photos/SubhashKamble-D2102.jpeg"
 	},
 	{
@@ -81,6 +92,7 @@
 		"flatNo": "D-2402",
 		"education": "Bachelor of Engineering In Chemical",
 		"permanentAddress": "Phaltan, Taluka, Satara District, Maharashtra.",
+		"village": "Phaltan, Satara",
 		"photo": "photos/KaustubhPandit-D2402.jpeg"
 	},
 	{
@@ -88,6 +100,7 @@
 		"flatNo": "D-2403",
 		"education": "Bachelor of Engineering In Electronics & Telecommunications",
 		"permanentAddress": "Suncity Ambegaon, D Wing, Flat 2403, Pune, Maharashtra",
+		"village": "Suncity Ambegaon, D Wing",
 		"photo": "photos/SagarKate-D2403.jpeg"
 	}
 ]

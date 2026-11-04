@@ -38,6 +38,9 @@ export default function Members({ members, isMarathi = false }) {
                 <Card.Body>
                   <Card.Title className="fs-5 mb-1">{member.fullName}</Card.Title>
                   <Card.Text className="text-primary fw-semibold mb-0">{member.flatNo}</Card.Text>
+                  <Card.Text className="member-village small mt-1 mb-0">
+                    {member.village || (isMarathi ? 'उपलब्ध नाही' : 'Not available')}
+                  </Card.Text>
                   <span className="member-see-more">
                     {isMarathi ? 'अधिक पाहा' : 'See more'}
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -71,6 +74,7 @@ export default function Members({ members, isMarathi = false }) {
               <dl className="mb-0">
                 <div className="profile-row"><dt>{isMarathi ? 'शिक्षण' : 'Education'}</dt><dd>{selectedMember.education}</dd></div>
                 <div className="profile-row"><dt>{isMarathi ? 'मूळ पत्ता' : 'Permanent Address'}</dt><dd>{selectedMember.permanentAddress}</dd></div>
+                <div className="profile-row"><dt>{isMarathi ? 'गाव' : 'Village'}</dt><dd>{selectedMember.village || (isMarathi ? 'उपलब्ध नाही' : 'Not available')}</dd></div>
               </dl>
             </Modal.Body>
           </>

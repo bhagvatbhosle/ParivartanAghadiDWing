@@ -1,4 +1,5 @@
 import { Container, Navbar } from 'react-bootstrap'
+import diyaNavbar from '../data/photos/diya-gradient.gif'
 
 export default function Header({ title }) {
   return (
@@ -7,6 +8,7 @@ export default function Header({ title }) {
         <Navbar.Brand className="app-title m-0 text-center">
           {title}
         </Navbar.Brand>
+        <img src={diyaNavbar} alt="" className="navbar-diya" />
       </Container>
     </Navbar>
   )
