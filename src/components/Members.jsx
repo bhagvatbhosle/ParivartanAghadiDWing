@@ -74,7 +74,6 @@ export default function Members({ members, isMarathi = false }) {
               <dl className="mb-0">
                 <div className="profile-row"><dt>{isMarathi ? 'शिक्षण' : 'Education'}</dt><dd>{selectedMember.education}</dd></div>
                 <div className="profile-row"><dt>{isMarathi ? 'मूळ पत्ता' : 'Permanent Address'}</dt><dd>{selectedMember.permanentAddress}</dd></div>
-                <div className="profile-row"><dt>{isMarathi ? 'गाव' : 'Village'}</dt><dd>{selectedMember.village || (isMarathi ? 'उपलब्ध नाही' : 'Not available')}</dd></div>
               </dl>
             </Modal.Body>
           </>
